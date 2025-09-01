@@ -1,0 +1,24 @@
+.skills-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: center; /* biar rata tengah */
+  align-items: center;
+  flex-wrap: wrap; /* kalau kepanjangan, otomatis turun ke baris baru */
+  gap: 40px; /* jarak antar skill */
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column; /* icon di atas, tulisan di bawah */
+  align-items: center;
+}
+
+.skill-item p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: white;
+}
